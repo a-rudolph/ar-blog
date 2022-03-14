@@ -1,59 +1,35 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
-	import Counter from '$lib/Counter.svelte';
+  import Post from '$lib/Post.svelte';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
+<h1 class="prose-invert">ar-blog</h1>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+<div class="flex m-1 mb-7">
+  <div
+    class="rounded-full m-1 ml-[-4px]
+   bg-slate-50 h-[48px] w-[48px]"
+  />
+  <div class="p-1 pl-3">
+    Personal blog by <a
+      href="https://github.com/a-rudolph"
+      target="blank"
+      class="btn-link text-secondary">Adam Rudolph</a
+    ><br /> DX enthusiast
+  </div>
+</div>
 
-		to your new<br />SvelteKit app
-	</h1>
+<Post
+  id="palette"
+  title={`coder's palette`}
+  date="March 12, 2022"
+  teaser={`know how to access all the tools at your disposal. easy to navigate and learn the shortcuts
+    you need.`}
+/>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<Post
+  id="lorem"
+  title={`some other article`}
+  date="February 4, 2022"
+  teaser={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni similique laborum ratione
+      reiciendis ipsum ducimus.`}
+/>
