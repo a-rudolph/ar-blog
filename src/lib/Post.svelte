@@ -1,5 +1,5 @@
 <script>
-  import { goto } from '$app/navigation';
+  import { goto } from "$app/navigation";
 
   export let id;
   export let title;
@@ -8,7 +8,7 @@
 </script>
 
 <div class="pv-3 mb-7">
-  <button on:click={goto(`/${id}`)}>
+  <button on:click={goto(`/blog/${id}`)}>
     <div class="flex justify-between items-baseline">
       <h2 class="text-cyan-400 mt-3 mb-3">{title}</h2>
       <div>{date}</div>
