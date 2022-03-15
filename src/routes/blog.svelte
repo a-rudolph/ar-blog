@@ -13,7 +13,7 @@
     Personal blog by <a
       href="https://github.com/a-rudolph"
       target="blank"
-      class="btn-link text-secondary">Adam Rudolph</a
+      class="link-secondary">Adam Rudolph</a
     ><br /> DX enthusiast
   </div>
 </div>
