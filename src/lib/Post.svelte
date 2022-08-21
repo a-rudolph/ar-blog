@@ -7,9 +7,9 @@
 
 <div class="pv-3 mb-7">
   <a href={`/blog/${id}`}>
-    <button>
-      <div class="flex justify-between items-baseline">
-        <h2 class="text-cyan-400 my-3">{title}</h2>
+    <button class="w-full">
+      <div class="w-full flex justify-between items-baseline">
+        <h2 class="text-accent my-3">{title}</h2>
         <div>{date}</div>
       </div>
 
