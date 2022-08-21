@@ -7,7 +7,7 @@
 <div class="flex m-1 mb-7">
   <div
     class="rounded-full m-1 ml-[-4px]
-   bg-slate-50 h-[48px] w-[48px]"
+   bg-slate-50 h-[64px] w-[64px]"
   />
   <div class="p-1 pl-3">
     Personal blog by <a
@@ -17,6 +17,13 @@
     ><br /> DX enthusiast
   </div>
 </div>
+
+<Post
+  id="worktrees"
+  title={`git worktrees`}
+  date="August 20, 2022"
+  teaser={`easily checkout multiple branches at once.`}
+/>
 
 <Post
   id="palette"
