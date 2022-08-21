@@ -34,6 +34,7 @@
 />
 
 <Post
+  isLink={false}
   id="lorem"
   title={`some other article`}
   date="February 4, 2022"
