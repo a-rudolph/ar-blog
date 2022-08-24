@@ -21,6 +21,13 @@
 	</li>
 </ul>
 
+<p>
+	for more info check out the<a
+		class="ml-2"
+		href="https://git-scm.com/docs/git-worktree">documentation</a
+	>.
+</p>
+
 <h2>Creating a worktree</h2>
 
 <p>
@@ -32,154 +39,4 @@
 <p>
 	the above command will create a new directory and create a new worktree in
 	that directory.
-</p>
-
-<p>
-	you can also create a new worktree in the current directory by running <code
-		>git worktree add .</code
-	>
-</p>
-
-<Code prefix="$" code={`git worktree add .`} />
-
-<p>the above command will create a new worktree in the current directory.</p>
-
-<h2>Listing worktrees</h2>
-
-<p>
-	list all the worktrees in the current directory by running <code
-		>git worktree list</code
-	>
-</p>
-
-<Code prefix="$" code={`git worktree list`} />
-
-<p>the above command will list all the worktrees in the current directory.</p>
-
-<h2>Checking out a worktree</h2>
-
-<p>
-	check out a worktree by running <code>git worktree checkout</code>
-</p>
-
-<Code prefix="$" code={`git worktree checkout`} />
-
-<p>the above command will check out the worktree in the current directory.</p>
-
-<h2>Deleting a worktree</h2>
-
-<p>
-	delete a worktree by running <code>git worktree prune</code>
-</p>
-
-<Code prefix="$" code={`git worktree prune`} />
-
-<p>the above command will delete the worktree in the current directory.</p>
-
-<h2>Adding a remote</h2>
-
-<p>
-	add a remote by running <code>git remote add</code>
-</p>
-
-<Code prefix="$" code={`git remote add`} />
-
-<p>the above command will add a remote to the current directory.</p>
-
-<h2>Listing remotes</h2>
-
-<p>
-	list all the remotes in the current directory by running <code
-		>git remote list</code
-	>
-</p>
-
-<Code prefix="$" code={`git remote list`} />
-
-<p>the above command will list all the remotes in the current directory.</p>
-
-<h2>Removing a remote</h2>
-
-<p>
-	remove a remote by running <code>git remote rm</code>
-</p>
-
-<Code prefix="$" code={`git remote rm`} />
-
-<p>the above command will remove a remote from the current directory.</p>
-
-<h2>Adding a remote branch</h2>
-
-<p>
-	add a remote branch by running <code>git branch --track</code>
-</p>
-
-<Code prefix="$" code={`git branch --track`} />
-
-<p>the above command will add a remote branch to the current directory.</p>
-
-<h2>Listing remote branches</h2>
-
-<p>
-	list all the remote branches in the current directory by running <code
-		>git branch -r</code
-	>
-</p>
-
-<Code prefix="$" code={`git branch -r`} />
-
-<p>
-	the above command will list all the remote branches in the current directory.
-</p>
-
-<h2>Removing a remote branch</h2>
-
-<p>
-	remove a remote branch by running <code>git branch -d</code>
-</p>
-
-<Code prefix="$" code={`git branch -d`} />
-
-<p>the above command will remove a remote branch from the current directory.</p>
-
-<h2>Adding a remote tracking branch</h2>
-
-<p>
-	add a remote tracking branch by running <code>git branch --set-upstream</code>
-</p>
-
-<Code prefix="$" code={`git branch --set-upstream`} />
-
-<p>
-	the above command will add a remote tracking branch to the current directory.
-</p>
-
-<h2>Listing remote tracking branches</h2>
-
-<p>
-	list all the remote tracking branches in the current directory by running <code
-		>git branch --list --column</code
-	>
-</p>
-
-<Code prefix="$" code={`git branch --list --column`} />
-
-<p>
-	the above command will list all the remote tracking branches in the current
-	directory.
-</p>
-
-<h2>Removing a remote tracking branch</h2>
-
-<p>
-	remove a remote tracking branch by running <code
-		>git branch --unset-upstream</code
-	>
-</p>
-
-<Code prefix="$" code={`git branch --unset-upstream`} />
-
-<p>
-	the above command will remove a remote tracking branch from the current
-	directory.
 </p>
